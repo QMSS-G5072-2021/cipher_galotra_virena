@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cipher_vg2494"
+version = "0.1.0"
+description = "Simple package for QMSS GR5072 HW#7"
+authors = ["Virena Galotra"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.1"
+jupyter = "^1.0.0"
+importlib_resources = "^5.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
